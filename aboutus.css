@@ -1,0 +1,161 @@
+
+.aboutusimg .img1{
+  width: 100%;
+  height: 400px;
+ 
+}
+
+
+.aboutusimg .container h2{
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 0px;
+}
+
+
+.gridcontent{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows:400px;
+  grid-gap: 10px 20px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 10px 20px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item h4{
+    font-size: 17px;
+    color: #1a6692;
+    
+}
+
+.grid-item span{
+    font-size: 13px;
+    display: block;
+    color: #f33f3f;
+    font-weight: 500;
+}
+
+.grid-container2 {
+  background-image: url(https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2016/04/Delhi-libraries.jpg?w=1200&h=628&fill=blur&fit=fill);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 10px 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+  margin-top: 20px;
+  background-position: fixed;
+}
+
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item2 h4{
+    font-size: 17px;
+    color: #1a6692;
+    
+}
+
+
+.grid-container3{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+  grid-gap: 10px 20px;
+  margin: 40px 40px;
+}
+
+.grid-item3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.social-icons a{
+  border: 1 px #eee;
+  background-color: #eee;
+}
+
+.margin{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+      }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .grid-container2{
+      display: grid;
+      grid-template-columns: auto auto;
+          }
+    }
+
+    @media only screen and (max-width: 992px) {
+      .grid-container3{
+        display: grid;
+        grid-template-columns: auto auto auto;
+              }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .gridcontent{
+          display: grid;
+          grid-template-columns: auto;
+               }
+        }
+
+@media only screen and (max-width: 600px) {
+  .grid-container{
+      display: grid;
+      grid-template-columns: auto;
+      }
+  }
+  @media only screen and (max-width: 992px) {
+    .grid-container2{
+      display: grid;
+      grid-template-columns: auto;
+          }
+    }
+
+@media only screen and (max-width: 992px) {
+  .grid-container3{
+    display: grid;
+    grid-template-columns: auto;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+  .gridcontent{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: safe;
+    }
+}
